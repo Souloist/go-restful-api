@@ -1,4 +1,4 @@
-# Introduction to creating APIs in Go
+# Example API in Go (Address Book)
 
 ## Setting Up Database Schema and Connections
 
