@@ -12,9 +12,7 @@ psql <db_name>
 The application also retrieves database credentials from environment variables so set the following:
 
 ```
-$ export DB_HOST=localhost
-$ export DB_PORT=5432
 $ export DB_USERNAME=<username>
 $ export DB_PASSWORD=<password>
-$ export DB_NAME=<dbname>
+$ export DB_URL=<dburl>
 ```
