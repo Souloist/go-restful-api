@@ -1,5 +1,6 @@
 package main
 
+// Person defines row in persons table to json mapping
 type Person struct {
 	ID        string   `json:"id"`
 	Firstname string   `json:"firstname"`
@@ -7,6 +8,7 @@ type Person struct {
 	Address   *Address `json:"address"`
 }
 
+// Address mirrors row in addresses table to json mapping
 type Address struct {
 	ID      string `json:"id"`
 	Street  string `json:"street"`
